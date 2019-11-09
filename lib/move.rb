@@ -10,7 +10,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  binding.pry
+  input.to_i
 end
 
 def checkpoint
