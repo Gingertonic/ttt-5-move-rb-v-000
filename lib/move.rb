@@ -6,6 +6,8 @@ def display_board(board)
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  binding.pry
+  lets_iterate
 end
 
 # code your input_to_index and move method here!
@@ -16,4 +18,8 @@ end
 def checkpoint
   bye = "ciao"
   puts bye
+end
+
+def lets_iterate(array)
+  
 end
